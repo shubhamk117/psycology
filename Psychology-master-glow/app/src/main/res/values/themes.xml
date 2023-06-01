@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Psychology" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">#6061F6</item>
+        <item name="colorPrimaryDark">#6061F6</item>
+        <item name="colorAccent">#6061F6</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="MRTimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/orangeMR</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/orangeMR</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/MRDatePickerButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/MRDatePickerButtonStyle</item>
+
+    </style>
+
+    <style name="MRDatePickerButtonStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/orangeMR</item>
+    </style>
+
+    <style name="PATimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/bluePA</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/bluePA</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PADatePickerButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/PADatePickerButtonStyle</item>
+
+    </style>
+
+    <style name="PADatePickerButtonStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/bluePA</item>
+    </style>
+
+    <style name="ERTTimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/violetERT</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/violetERT</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/ERTDatePickerButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/ERTDatePickerButtonStyle</item>
+
+    </style>
+
+    <style name="ERTDatePickerButtonStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/violetERT</item>
+    </style>
+
+    <style name="Theme.Psychology.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Psychology.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Psychology.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

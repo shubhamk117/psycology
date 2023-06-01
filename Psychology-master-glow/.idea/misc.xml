@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable-v24/blue_ic_baseline_date_range_24.xml" value="0.151" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable-v24/home_cornered_screen_ert.xml" value="0.1485" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/arrow.xml" value="0.1615" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/arrow_white.xml" value="0.1615" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/color_roundedcorners.xml" value="0.1585" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/cornered_screen.xml" value="0.153" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/desc_shape.xml" value="0.1525" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/home_cornered_screen.xml" value="0.162" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/home_cornered_screen_mr.xml" value="0.1485" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/home_cornered_screen_pa.xml" value="0.1485" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.151" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.151" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.162" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_sadcolor.xml" value="0.157" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_veryhappy.xml" value="0.188" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/ic_veryhappycolor.xml" value="0.188" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/progress.xml" value="0.151" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/drawable/roundedcorner.xml" value="0.188" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_about_the_app.xml" value="0.1" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_contact_us.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_edit_account.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_ert_stats.xml" value="0.152" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_ertentry.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_initial_message.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_initial_video.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_know_more.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_login_details_collection.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_login_main.xml" value="0.176" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_login_otp.xml" value="0.176" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_mr_stats.xml" value="0.176" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_mrentry.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_pa_stats.xml" value="0.176" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_paentry.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/activity_splash.xml" value="0.136" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/autocomplete_text.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/dropdown_menu_popup_item.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/fragment_entries.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/fragment_statistics.xml" value="0.2" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/list_item_ert_stats.xml" value="0.136" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/list_item_mr_statistics.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/robin/Desktop/Psychology-master/app/src/main/res/layout/list_item_pa_stats.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.16983695652173914" />
+        <entry key="app/src/main/res/layout/activity_ert_stats.xml" value="0.11119554204660588" />
+        <entry key="app/src/main/res/layout/activity_initial_message.xml" value="0.16485507246376813" />
+        <entry key="app/src/main/res/layout/activity_initial_video.xml" value="0.16485507246376813" />
+        <entry key="app/src/main/res/layout/activity_know_more.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_login_details_collection.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_login_main.xml" value="0.11119554204660588" />
+        <entry key="app/src/main/res/layout/activity_mr_stats.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pa_stats.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_paentry.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dropdown_menu_popup_item.xml" value="0.13627152988855115" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
