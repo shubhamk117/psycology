@@ -2,6 +2,7 @@ package com.psychology.glowMentally.EntriesUI;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
@@ -27,6 +28,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.psychology.glowMentally.MainActivity;
 import com.psychology.glowMentally.R;
+import com.psychology.glowMentally.VideoPlayerActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -40,6 +42,7 @@ public class ERTEntryActivity extends AppCompatActivity {
     String emotionSelected = "";
     ProgressBar progressBar;
 
+    Button learnMoreBtn;
     Button submit;
     TextView skip;
 
@@ -79,7 +82,7 @@ public class ERTEntryActivity extends AppCompatActivity {
         veryHappy = findViewById(R.id.veryHappy);
         submit = findViewById(R.id.submit);
         skip = findViewById(R.id.skip);
-
+        learnMoreBtn = findViewById(R.id.learnMore);
 
         final int sdk = android.os.Build.VERSION.SDK_INT;
 
@@ -91,6 +94,16 @@ public class ERTEntryActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        learnMoreBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), VideoPlayerActivity.class);
+                intent.putExtra("headingText","Emotion Regulation Tracker");
+                intent.putExtra("videoID","58qylelmzoQ");
+                startActivity(intent);
             }
         });
 

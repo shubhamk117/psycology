@@ -36,6 +36,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.psychology.glowMentally.MainActivity;
 import com.psychology.glowMentally.Notification.AlarmReceiver;
 import com.psychology.glowMentally.R;
+import com.psychology.glowMentally.VideoPlayerActivity;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -59,6 +60,7 @@ public class PAEntryActivity extends AppCompatActivity {
     private PendingIntent pendingIntent;
     private AlarmManager alarmManager;
 
+    Button learnMoreBtn;
     private Calendar calendarNotification;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +73,7 @@ public class PAEntryActivity extends AppCompatActivity {
         SharedPreferences.Editor myEdit = sharedPreferences.edit();
 
         calendarNotification=Calendar.getInstance();
-
+        learnMoreBtn = findViewById(R.id.learnMore);
         progressBar=findViewById(R.id.progressBar);
         dateCard=findViewById(R.id.dateCard);
 
@@ -112,6 +114,17 @@ public class PAEntryActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+
+        learnMoreBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), VideoPlayerActivity.class);
+                intent.putExtra("headingText","Positive Affirmation");
+                intent.putExtra("videoID","cMxKG_ZKUpY");
+                startActivity(intent);
             }
         });
 

@@ -39,6 +39,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.psychology.glowMentally.MainActivity;
 import com.psychology.glowMentally.Notification.AlarmReceiver;
 import com.psychology.glowMentally.R;
+import com.psychology.glowMentally.VideoPlayerActivity;
 
 import java.util.Calendar;
 import java.util.HashMap;
@@ -59,6 +60,7 @@ public class MREntryActivity extends AppCompatActivity {
     SharedPreferences prefs;
     int selectedDay, selectedMonth, selectedYear, selectedHour, selectedMinute;
 
+    Button learnMoreBtn;
     private AlarmManager alarmManager;
     private PendingIntent pendingIntent;
     private Calendar calendarNotification;
@@ -94,6 +96,7 @@ public class MREntryActivity extends AppCompatActivity {
         skip = findViewById(R.id.skip);
 
         backBtn=findViewById(R.id.backBtn);
+        learnMoreBtn = findViewById(R.id.learnMore);
 
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,6 +106,17 @@ public class MREntryActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        learnMoreBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), VideoPlayerActivity.class);
+                intent.putExtra("headingText","Mindfullness Reminder");
+                intent.putExtra("videoID","7APl6BA50PI");
+                startActivity(intent);
+            }
+        });
+
 
         calendarBtn.setOnClickListener(new View.OnClickListener() {
             @Override

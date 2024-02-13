@@ -33,7 +33,7 @@ public class InitialVideoActivity extends AppCompatActivity {
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                String videoId = "w3-1_OyqdDs";
+                String videoId = "IGV1q_8uXcw";
                 youTubePlayer.loadVideo(videoId, 0);
             }
         });

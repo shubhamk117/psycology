@@ -18,39 +18,18 @@ public class KnowMoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_know_more);
 
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
-        YouTubePlayerView youTubePlayerView1 = findViewById(R.id.youtube_player_view1);
-        YouTubePlayerView youTubePlayerView2 = findViewById(R.id.youtube_player_view2);
 
         getLifecycle().addObserver(youTubePlayerView);
-        getLifecycle().addObserver(youTubePlayerView1);
-        getLifecycle().addObserver(youTubePlayerView2);
 
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                String videoId = "w3-1_OyqdDs";
+                String videoId = "IGV1q_8uXcw";
                 youTubePlayer.loadVideo(videoId, 0);
                 youTubePlayer.pause();
             }
         });
 
-        youTubePlayerView1.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
-            @Override
-            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                String videoId = "w3-1_OyqdDs";
-                youTubePlayer.loadVideo(videoId, 0);
-                youTubePlayer.pause();
-            }
-        });
-
-        youTubePlayerView2.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
-            @Override
-            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                String videoId = "w3-1_OyqdDs";
-                youTubePlayer.loadVideo(videoId, 0);
-                youTubePlayer.pause();
-            }
-        });
 
 
     }
